@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #ddd;
+}
+h4{
+    font-size: 30px;
+}
+a{
+    text-decoration: none;
+}
+/* ------------------------------ */
+.facebook-create{
+    width: 40%;
+    margin: 0px auto;
+    padding: 10px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+}
+
+.wrapper h4{
+  text-align: center;
+  color: #1877f2;
+  font-weight: 800;
+  font-size: 70px;
+}
+.facebook-overlay{
+    background: #fff;
+}
+.facebook-content{
+    margin-top: 10px;
+    text-align: center;
+}
+.facebook-content strong{
+    font-size: 27px;
+    font-weight: 600;
+}
+.border{
+    border-bottom: 1px solid rgba(136, 136, 136, 0.555);
+    border-width: 100%;
+    margin: 10px 0;
+}
+form{
+    padding: 10px
+}
+.user{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.user .f-name{
+    width: 48.5%;
+}
+.f-name input{
+    width: 100%;
+    padding: 10px 10px;
+    border-radius: 5px;
+    font-size: 17px;
+    outline: none;
+    border: 2px solid #ddd;
+}
+.l-name{
+    width: 48.5%;
+}
+.l-name input{
+    width: 100%;
+    padding: 10px 10px;
+    border-radius: 5px;
+    font-size: 17px;
+    outline: none;
+    border: 2px solid #ddd;
+}
+/* -----------------Mobile */
+.mobile{
+    width: 100%;
+}
+.mobile input{
+    width: 100%;
+    padding: 10px 10px;
+    border-radius: 5px;
+    font-size: 17px;
+    outline: none;
+    border: 2px solid #ddd;
+}
+/* -------------------- pass  */
+.pass{
+    width: 100%;
+}
+.pass input{
+    width: 100%;
+    padding: 10px 10px;
+    border-radius: 5px;
+    font-size: 17px;
+    outline: none;
+    border: 2px solid #ddd;
+}
+/* ----------------- birth  */
+.date span.question{
+    background: #888;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    text-align: center;
+}
+/* --------------------- birth  */
+.date-of-birth{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.birth-item{
+    width: 30%;
+}
+.birth-item select{
+    padding: 10px 10px;
+    width: 100%;
+    font-size: 17px;
+}
+/* -------------------- gender  */
+.gender-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.gender-item{
+    width: 30%;
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.gender-items{
+    padding: 10px 10px;
+    width: 100%;
+    font-size: 17px;
+    background: #e9e9ed;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+
+}
+.gender-items input{
+    margin-left: 50px;
+}
+/* ----------------- terms  */
+.terms{
+    text-align: justify;
+}
+.terms span{
+    font-size: 14px;
+}
+/* ----------------- button  */
+.submit{
+    text-align: center;
+    margin: 15px 0;
+    
+}
+.submit button{
+    background: #00a400;
+    font-size: 20px;
+    color: #fff;
+    border-radius: 10px;
+    padding: 5px 50px;
+}
+/* ---------------------- account  */
+.account{
+    text-align: center;
+    
+}
+.account a{
+    font-size: 17px;
+}
